@@ -40,6 +40,9 @@ ORDER: Base + typography > general layout + grid > page layout > components
           transform: translate(0, 20px);
   -webkit-transition: all 1s;
   transition: all 1s; }
+  @media (max-width: 1367px) {
+    .animation_loading {
+      opacity: 1; } }
 
 .animation_loading.visible {
   opacity: 1;
