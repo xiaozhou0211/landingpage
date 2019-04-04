@@ -1,0 +1,36 @@
+.simplelybe_col {
+  border-top: 2px solid black;
+  &-title {
+    padding: 2rem 0rem;
+
+    @include respond(phone) {
+        padding: 1rem 0rem;
+    }
+  }
+}
+
+.newarrived {
+  display: flex;
+
+  &__imgdiv {
+    width: 50%;
+    &-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__info {
+    width: 50%;
+    position: relative;
+    padding: 0rem 2rem;
+
+    &-btn {
+      position: absolute;
+      bottom:20px;
+
+      @include respond(phone) {
+          bottom:10px;
+      }
+    }
+  }
+}

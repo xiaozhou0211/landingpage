@@ -1,0 +1,33 @@
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 0.5rem 0rem !important;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-toggler {
+    padding: 0.25rem 1rem !important;
+    font-size: 1rem !important;
+    line-height: 3 !important;
+    border-radius: 5rem !important;
+}
+
+.nav-link {
+    font-size: 1.4rem !important;
+}
+
+.btn-outline-secondary {
+    color: white !important;
+    border-color: white !important;
+
+    &:hover {
+      background-color: transparent !important;
+    }
+}

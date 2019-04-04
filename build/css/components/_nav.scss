@@ -1,0 +1,44 @@
+.simplelybe_header {
+  &__line {
+    background-color: black;
+    width: 100%;
+    height: 6px;
+  }
+  &__container {
+
+    &-logodiv {
+      margin: 0 auto;
+      width: 13rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 2rem;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-bottom: 1px solid black;
+  }
+}
+
+.main_nav_flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main_nav_flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .simplelybe_header__container-logodiv {
+    margin:0;
+  }
+  .nav-link {
+    margin: 0;
+  }
+}

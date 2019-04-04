@@ -1,0 +1,58 @@
+.top {
+  position: relative;
+  text-align: center;
+
+  &__imgdiv {
+    display: flex;
+
+    &-img {
+      width: 25%;
+      height: auto;
+      align-self: center;
+    }
+
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    @include absCenter;
+    width: 100%;
+
+    &-div {
+      width: 49%;
+    }
+
+    &-h1 {
+      color: white;
+      font-weight: 800;
+      font-size: 9rem;
+
+      @include respond(tab-port) {
+          font-size: 6rem;
+      }
+      @include respond(tab-land) {
+          font-size: 6rem;
+      }
+      @include respond(phone) {
+          font-size: 3rem;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  #img1,
+  #img4 {
+    display: none;
+    visibility: hidden;
+  }
+
+  #img2,
+  #img3 {
+    width: 50%;
+  }
+
+}

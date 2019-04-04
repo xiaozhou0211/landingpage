@@ -1,0 +1,22 @@
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.animation_loading {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+
+.animation_loading.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}

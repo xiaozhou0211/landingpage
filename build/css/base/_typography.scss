@@ -1,0 +1,28 @@
+.simplelybe_main_title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.simplelybe_sub_title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.page_title {
+  width: 40%;
+  margin:0 auto;
+
+  @include respond(tab-land) {
+      width: 60%;
+  }
+  @include respond(tab-port) {
+      width: 60%;
+  }
+
+  @include respond(phone) {
+      width: 80%;
+  }
+}
+
+.heigh_light_text {
+  color: $highlight;
+}

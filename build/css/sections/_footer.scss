@@ -1,0 +1,23 @@
+.footer {
+
+   &__icondiv {
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     background-color: #333333;
+   }
+   &__copyright {
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     background-color: black;
+
+     & p {
+       color: white;
+     }
+   }
+  &__icon {
+    color: white;
+    &:hover {
+      color: $highlight;
+    }
+  }
+}
